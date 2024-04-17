@@ -27,7 +27,6 @@ outliers = data[(tinggi < batas_bawah) | (tinggi > batas_atas)]
 jumlah_outliers = len(outliers)
 print("Jumlah outliers:", jumlah_outliers)
 
-# Menyimpan hasil ke file Excel
 hasil = {
     "Mean Tinggi": [mean_tinggi],
     "Varians Tinggi": [varians_tinggi],
