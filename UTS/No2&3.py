@@ -24,8 +24,5 @@ simpangan_baku_tinggi = 11.232
 z_score = (x - mean_tinggi) / simpangan_baku_tinggi
 print("Nilai z-score untuk tinggi 175cm:", round(z_score, 2))
 
-# Menghitung peluang orang dengan tinggi lebih dari 175cm
-# Kami akan menggunakan distribusi normal standar untuk ini
-# tanpa menggunakan fungsi bawaan dari paket statistik tertentu
 peluang_lebih_dari_175 = 1 - norm.cdf(z_score)
 print("Peluang orang dengan tinggi lebih dari 175cm:", round(peluang_lebih_dari_175, 3))
